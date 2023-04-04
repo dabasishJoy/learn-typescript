@@ -1,10 +1,6 @@
 "use strict";
-const employee = {
+let employee = {
     id: 1,
     name: "Joy",
-    retire: () => {
-        return 5;
-    },
 };
-console.log(employee);
 //# sourceMappingURL=object.js.map
