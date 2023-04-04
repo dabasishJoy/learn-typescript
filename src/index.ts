@@ -26,3 +26,12 @@ let b = "Bangladesh"; //this is converted into static string type
 
 // ts static type
 let age: number = 50; //Define type so that it wont store any other value except "number"
+
+// Debugging
+let count: number = 5;
+
+if (count > 2) {
+  count += 5;
+}
+
+console.log(count);

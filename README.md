@@ -25,3 +25,10 @@ Configure Compiler :
 6: noEmmitOnError: prevent transpilation with error
 
 then run "tsc" command to transpile the tsc file
+
+Debugging
+1: enable source map-> which enables to get a map file to js file that will be used for debuggers
+2: put a breakpoint in the code
+3: create a launch.json file from debug section
+4: Add ""preLaunchTask": "tsc: build - tsconfig.json" this configuration to tell the compiler to build on that json file
+5: then run debug
