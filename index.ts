@@ -23,3 +23,6 @@ let b = "Bangladesh"; //this is converted into static string type
 // this will throw compile time error : Type 'number' is not assignable to type 'string'.
 // b = 5;
 // but in ts we can specify the static types
+
+// ts static type
+let age: number = 50; //Define type so that it wont store any other value except "number"
