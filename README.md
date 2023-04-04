@@ -15,3 +15,13 @@ Installation:
 First Program:
 1: Create a .ts file
 2: Perform transpilation using "tsc" command followed by the file name and rum compilation
+
+Configure Compiler :
+1: "tsc --init" to initialize a project -> get a tscconfig.json file
+2: set target: specify the version of JS it will compiled
+3: set rootDir: to take input file from this directory
+4: set outDir: the generated output js file/ transpiled js file
+5: removeComments: to make simplify the js file removing comments
+6: noEmmitOnError: prevent transpilation with error
+
+then run "tsc" command to transpile the tsc file
