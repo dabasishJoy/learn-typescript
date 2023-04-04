@@ -10,4 +10,8 @@ Transpilation of TS:
 1: Browsers don't understand typScript codes, so it needs to be tranformed into JS, and to make sure that every old browsers also can understand the code so TS complier transpiles the TS code into vanilla JS code this process is called Transpilation.
 
 Installation:
-1: install typeScript globally and get the tsc command. Using tsc command we can complie .ts files.
+1: install typeScript globally and get the tsc command. Using tsc command we can complie .ts files and get the expected result.
+
+First Program:
+1: Create a .ts file
+2: Perform transpilation using "tsc" command followed by the file name and rum compilation
