@@ -11,5 +11,5 @@ array3[1] = 5; //this is possible which is not the goal
 
 //but this will throw error
 let array4: number[] = []; //here because of type annotation
-array4[0] = "Joy"; //this will throw error for assigning the string value in number array
+// array4[0] = "Joy"; //this will throw error for assigning the string value in number array
 array4[1] = 5;
