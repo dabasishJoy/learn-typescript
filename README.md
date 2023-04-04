@@ -1,4 +1,4 @@
-# learn-typescript
+# Learn-typescript
 
 1: What is TypeScript?
 a: TS is a programming language that overcomes some shotcomings of JavaScript such as Dynamic Typing.
