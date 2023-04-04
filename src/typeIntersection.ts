@@ -9,7 +9,7 @@ type Dragable = {
 
 // another type aliase
 type Resizeable = {
-  resize: () => number;
+  resize: (num: number) => number;
 };
 
 // create another type but combination of both dragable and resizeable
