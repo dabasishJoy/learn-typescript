@@ -7,6 +7,6 @@ let person: [string, number, boolean]; //define tuple -> fixed length and fixed 
 
 person = ["Joy", 10, true]; //create an array with defined tuple
 // person = ["Joy", "Alom", true]; //throw error for type
-person = ["Joy", 5, true, 5]; //throw error for length
+// person = ["Joy", 5, true, 5]; //throw error for length
 
 console.log(person);

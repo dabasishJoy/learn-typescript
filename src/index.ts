@@ -43,8 +43,7 @@ console.log(count);
 //   return num + 5;
 // }
 
-// solution
-function calc(num: number) {
+function calc(num: number): number {
   //Parameter 'num' implicitly has an 'any' type. because of default behavior set in the config file
   return num + 5;
 }
