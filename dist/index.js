@@ -12,8 +12,8 @@ if (count > 2) {
     count += 5;
 }
 console.log(count);
-function calc(num) {
+function calcFun(num) {
     return num + 5;
 }
-calc(5);
+calcFun(5);
 //# sourceMappingURL=index.js.map
