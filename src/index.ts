@@ -35,3 +35,18 @@ if (count > 2) {
 }
 
 console.log(count);
+
+// The implicit any type
+
+// function calc(num) {
+//   //Parameter 'num' implicitly has an 'any' type. because of default behavior set in the config file
+//   return num + 5;
+// }
+
+// solution
+function calc(num: number) {
+  //Parameter 'num' implicitly has an 'any' type. because of default behavior set in the config file
+  return num + 5;
+}
+
+calc(5);

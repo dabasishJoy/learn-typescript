@@ -36,3 +36,5 @@ Debugging
 AnyType:
 If we declare a varible without type specified durig declaration, by default it will be as "any" type which is actually not the goal of TS, becaise JS has this feature by default.
 so it is good practice to avoid the "any" type in TS. which is known as "inferring type"
+
+caution: the implicit any type gives an error. This is best practise to have that.
