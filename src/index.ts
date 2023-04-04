@@ -1,7 +1,7 @@
 console.log("Hello world");
 
-// This is  a varible with dynamic type that is default behavior of JS
-let a;
+// This is  a varible with dynamic type that is default behavior of JS but in TS ts has a new type that is called "any" it will be then type of any which is equivalend to dynamic typing in js
+let a; //bad practise
 
 // we can assign number and change the type of the varibale runtime
 a = 5;
